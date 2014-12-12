@@ -34,7 +34,7 @@ browsing cat pictures on the Internet.
 
 Your mission is to add to our database of bars, restaurants and 
 cafes. The goal is to get your changes into the master repository 
-[OpenTechSchool/underground](https://github.com/OpenTechSchool/underground). 
+[OpenTechSchool-Dortmund/underground](https://github.com/OpenTechSchool-Dortmund/underground). 
 However, the Oligarchs do not accept changes from just anybody. 
 The Oligarchs will only accept pull requests from one of 
 their trusted lieutenants, the Coaches.
@@ -45,7 +45,7 @@ To contribute some code, first you'll need to find a coach. There are
 a few ways to do this:
 
 * Sequester one in a non-violent, friendly way, and ask nicely.
-* Check the "Forks" on the `OpenTechSchool/underground` 
+* Check the "Forks" on the `OpenTechSchool-Dortmund/underground` 
   repository. There will be coaches on there.
 * Kindly ask one of your friendly co-students for some assistance.
 
@@ -192,11 +192,11 @@ completely overwritten all your changes and added a curse for your
 pets in the README file. Let's add another upstream to see what is
 happening:
 
-    $ git remote add upstream https://github.com/OpenTechSchool/underground.git
+    $ git remote add upstream https://github.com/OpenTechSchool-Dortmund/underground.git
 
 This adds an upstream repository called `upstream`. Now we can
 `fetch` directly from the Oligarchs. This will download the
-`OpenTechSchool/underground` repository and store it under
+`OpenTechSchool-Dortmund/underground` repository and store it under
 the name `upstream`, so it won't interfere with your changes:
 
     $ git fetch upstream
